@@ -188,7 +188,7 @@ async function handleSignIn(event) {
 
     const response =
       await fetch(
-        "https://new-account-created.onrender.com/api/signin", 
+        "https://new-account-created-1.onrender.com/api/signin", 
         {
 
           method: "POST",
@@ -298,7 +298,7 @@ async function handleSignUp(event) {
 
     const response =
       await fetch(
-        "https://new-account-created.onrender.com/api/signup",
+        "https://new-account-created-1.onrender.com/api/signup",
         {
 
           method: "POST",
@@ -406,7 +406,7 @@ async function handleForgotPassword(event) {
 
     const response =
       await fetch(
-        "https://new-account-created.onrender.com/api/forgot-password",
+        "https://new-account-created-1.onrender.com/api/forgot-password",
         {
 
           method: "POST",
@@ -540,7 +540,7 @@ async function handleResetPassword() {
 
     const response =
       await fetch(
-        "https://new-account-created.onrender.com/api/reset-password",
+        "https://new-account-created-1.onrender.com/api/reset-password",
         {
 
           method: "POST",
